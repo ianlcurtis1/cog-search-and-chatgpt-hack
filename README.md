@@ -3,7 +3,7 @@
 --THIS IS A WORKING DOCUMENT AND IS (VERY) INCOMPLETE--
 
 # Hack Purpose
-Customers are confused as to where Azure Cognitive Search (ACS) comes into the picture when using ChatGPT with their data. The hack is to crystalise the capabilities and value offering that ACS gives in the minds of CSAs and others so that they can have a customer conversation. Benefits include:
+Customers are confused as to where Azure Cognitive Search (ACS) comes into the picture when using ChatGPT with their data. The hack is to crystalise the capabilities and value offering that ACS gives (in combination with GPT models) in the minds of CSAs and others so that they can have an informed customer conversation. Benefits include:
 1. Data ingestion from many sources
 2. Data enrichment
 3. Vector search
