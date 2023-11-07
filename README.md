@@ -11,7 +11,7 @@ Customers are confused as to where Azure Cognitive Search (ACS) comes into the p
 5. ...
 
 This hack builds a subset of the architecture in this repo - https://techcommunity.microsoft.com/t5/azure-ai-services-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087 - which is a very common and simple pattern for this scenario. 
-The idea of the hack is to produce the search and generative parts of this solution by hand, in the portal or via CLR - i.e. not via a script. The hackers learn how to create the resources, ingest and enrich data, query the data, and understand what the different capabilities actually bring in practice. After the hack you can use the scripts in the repo above to deploy the more fully featured and demonstrable example, in the smug knowledge that you now know how it all works.
+The idea of the hack is to produce the search and generative parts of this solution by hand, in the portal or via CLR - i.e. not via a script. You learn how to create the resources, ingest and enrich data, query the data, and understand what the different capabilities actually bring in practice. After the hack you can use the scripts in the repo above to deploy the more fully featured and demonstrable example, in the smug knowledge that you now know how it all works.
 
 ![Imgur](https://github.com/ianlcurtis1/cog-search-and-chatgpt-hack/blob/main/Architecture.png)
 
