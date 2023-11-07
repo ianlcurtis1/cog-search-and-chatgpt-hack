@@ -16,8 +16,8 @@ The idea of the hack is to produce the search and generative parts of this solut
 ![Imgur](https://github.com/ianlcurtis1/cog-search-and-chatgpt-hack/blob/main/Architecture.png)
 
 # Hack Away!
-Prerequisites
-- OpenAI service enabled on your subscription
+`Prerequisites`
+- OpenAI service enabled on your subscription.
 - ..
 
 The hack will not build a UI, hackers will query the data via AI Studio.
@@ -49,6 +49,7 @@ GPT 3.5 Turbo
 1. Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
 2. ...
 
+# Cleanup
 ⚠️ To avoid unnecessary costs, remember to take down your app if it's no longer in use by deleting the resource group.
 
 # Helpful links
