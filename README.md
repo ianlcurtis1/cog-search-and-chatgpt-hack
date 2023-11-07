@@ -39,6 +39,7 @@ Now we need to add our own data.
 3. Upload data files found [???] to your blob container
 
 `TASK 3` Run a prompt against ChatGPT grounded in raw data ingested into ACS
+
 You can quickly ground ChatGPT with your data by using the 'Add your data' tab in the Chat Playground. 
 1. Add your uploaded data as a data source for your GPT model.
 2. Write a prompt to find out x and display it as y...
