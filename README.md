@@ -8,6 +8,7 @@ Customers are confused as to where Azure Cognitive Search (ACS) comes into the p
 2. Data enrichment
 3. Vector search
 4. Fast indexed data store
+5. ...
 
 # Content
 This repo is the basis - https://techcommunity.microsoft.com/t5/azure-ai-services-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087. It is a very common and simple pattern for this scenario.
@@ -25,7 +26,7 @@ Hands on creation of the:
 2. Cognitive Search
   - Indexes
 3. OpenAI
-  - GPT-4
+  - GPT 3.5 Turbo
 
 Hackers will show comparative quality in response
 - Demonstrate what the different aspects of Cognitive Search bring
@@ -35,3 +36,4 @@ Hackers will show comparative quality in response
 
 # Stretch
 Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
+...
