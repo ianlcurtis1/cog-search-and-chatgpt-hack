@@ -51,7 +51,7 @@ GPT 3.5 Turbo
 2. 
 
 `TASK 5` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS, using vector search
-1. ...
+1. Create a deployment of `text-embedding-ada-002`. This is required to create embeddings in OpenAI which will be stored in ACS.
 2. 
 
 `TASK 6` Prompt engineering to get a better response
