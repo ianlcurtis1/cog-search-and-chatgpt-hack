@@ -22,32 +22,53 @@ The idea of the hack is to produce the search and generative parts of this solut
 
 The hack will not build a UI, hackers will query the data via AI Studio.
 
-`TASK 1` Create the base infrastructure
-1. Log into the portal, https://portal.azure.com
-2. Create a Cognitive Search service: eastus, standard tier, ...
-3. Create a storage account and blob storage container: LRS, ...
-4. Upload data files to your blob container
-5. Create an OpenAI service
-6. Create a deployment of `GPT 3.5 Turbo`
+`TASK 1` Create a vanilla GPT deployment
+1. In Azure, create an OpenAI service.
+2. From AI Studio create a deployment of `GPT 3.5 Turbo`.
 
-`TASK 2` Run a prompt against ChatGPT grounded in raw data ingested into ACS 
-1. ...
-2. 
+Note the `Chat` and `Completions` blades in AI Studio. 
+- You can ask ChatGPT a question or 2.
+- Have a play with the settings in the right-hand blade of the Chat and Completions pages and note the effect on the response received. Tip: it's best to change one setting at a time.
+- You can deploy the model as a Web App or PVA by using the dropdown in the top-right corner, if you like.
 
-`TASK 3` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS
+Now we need to add our own data.
+
+`TASK 2` Create search service deployment
+1. Create a Cognitive Search service: eastus, standard tier, ...
+2. Create a storage account and blob storage container: LRS, ...
+3. Upload data files found [???] to your blob container
+
+`TASK 3` Run a prompt against ChatGPT grounded in raw data ingested into ACS
+You can quickly ground ChatGPT with your data by using the 'Add your data' tab in the Chat Playground. 
+1. Add your uploaded data as a data source for your GPT model.
+2. Write a prompt to find out x and display it as y...
+
+`TASK 4` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS
 Indexes
 GPT 3.5 Turbo
 1. ...
 2. 
 
-`TASK 4` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS, using vector search
+`TASK 5` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS, using vector search
+1. ...
+2. 
+
+`TASK 6` Prompt engineering to get a better response
+1. ...
+2. 
+
+`TASK 7` Protect your model's endpoint
 1. ...
 2. 
 
 # Stretch Goals
-`TASK 5` - Filter search results based on AD roles
+`TASK 8` - Filter search results based on AD roles
 1. Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
 2. ...
+
+`TASK 9` - Investigate Prompt Flow
+1. ...
+2. 
 
 # Cleanup
 ⚠️ To avoid unnecessary costs, remember to take down your app if it's no longer in use by deleting the resource group.
