@@ -18,22 +18,40 @@ The idea of the hack is to produce the search and generative parts of this solut
 ![Imgur](https://github.com/ianlcurtis1/cog-search-and-chatgpt-hack/blob/main/Architecture.png)
 
 # Hack Away!
+Prerequisites
+- OpenAI service enabled on your subscription
+- ..
+
 The hack will not build a UI, hackers will query the data via AI Studio.
 
-Hands on creation of the:
-1. Blob storage
-  - Uploaded data files
-2. Cognitive Search
+TASK 1 Create the base infrastructure
+1. Log into the portal portal.azure.com
+2. Create a Cognitive Search service (takes time to deploy)
+  - ...
   - Indexes
-3. OpenAI
+3. Create a storage account and blob storage container
+  - ...
+  - Upload data files
+3. Create an OpenAI service
+  - ...
   - GPT 3.5 Turbo
 
-Hackers will show comparative quality in response
-- Demonstrate what the different aspects of Cognitive Search bring
-- Run the prompt against data grounded against ChatGPT model (no Cognitive Search)
-- Run the same prompt against Cog Search with Indexes and enrichment
-- Run the same prompt against Cog Search with vectors (similarity)
+TASK 2 Run the prompt against data grounded against ChatGPT model (no Cognitive Search)
+1. ...
+2. 
 
-# Stretch
+TASK 3 Run the same prompt against Cog Search with Indexes and enrichment
+1. ...
+2. 
+
+TASK 4 Run the same prompt against Cog Search with vectors (similarity)
+1. ...
+2. 
+
+# Stretch Goals
+TASK 5 - Filter search results based on AD roles
 Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
+...
+
+# Helpful links
 ...
