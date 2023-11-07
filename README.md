@@ -5,7 +5,7 @@ Customers are confused as to where Azure Cognitive Search (ACS) comes into the p
 	- Data ingestion from many sources
 	- Data enrichment
 	- Vector search
-  - Fast indexed data store
+  	- Fast indexed data store
 
 #Content
 This repo is the basis - https://techcommunity.microsoft.com/t5/azure-ai-services-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087. It is a very common and simple pattern for this scenario.
@@ -31,6 +31,5 @@ Demonstrate what the different aspects of Cognitive Search bring
 
 Show comparative performance in response
 
-Stretch
+#Stretch
 Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
-![image](https://github.com/ianlcurtis1/cog-search-and-chatgpt-hack/assets/66006073/71bfef03-4eb3-49ce-80e2-c01bb77b8096)
