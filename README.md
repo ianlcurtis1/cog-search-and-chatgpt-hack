@@ -22,33 +22,30 @@ Prerequisites
 
 The hack will not build a UI, hackers will query the data via AI Studio.
 
-TASK 1 Create the base infrastructure
-1. Log into the portal portal.azure.com
-2. Create a Cognitive Search service
-  - standard tier, ...
-3. Create a storage account and blob storage container
-  - LRS, ...
-  - Upload data files
-3. Create an OpenAI service
-  - ...
-  - GPT 3.5 Turbo
+`TASK 1` Create the base infrastructure
+1. Log into the portal, https://portal.azure.com
+2. Create a Cognitive Search service: eastus, standard tier, ...
+3. Create a storage account and blob storage container: LRS, ...
+4. Upload data files to your blob container
+5. Create an OpenAI service
+6. Create a deployment of `GPT 3.5 Turbo`
 
-TASK 2 Run the prompt against data grounded against ChatGPT model (no Cognitive Search)
+`TASK 2` Run a prompt against ChatGPT grounded in raw data ingested into ACS 
 1. ...
 2. 
 
-TASK 3 Run the same prompt against Cog Search with Indexes and enrichment
+`TASK 3` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS
 Indexes
 GPT 3.5 Turbo
 1. ...
 2. 
 
-TASK 4 Run the same prompt against Cog Search with vectors (similarity)
+`TASK 4` Run the same prompt against ChatGPT grounded in data ingested and enriched into ACS, using vector search
 1. ...
 2. 
 
 # Stretch Goals
-TASK 5 - Filter search results based on AD roles
+`TASK 5` - Filter search results based on AD roles
 1. Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
 2. ...
 
