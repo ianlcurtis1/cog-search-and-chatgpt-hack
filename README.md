@@ -49,5 +49,7 @@ GPT 3.5 Turbo
 1. Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
 2. ...
 
+⚠️ To avoid unnecessary costs, remember to take down your app if it's no longer in use by deleting the resource group.
+
 # Helpful links
 ...
