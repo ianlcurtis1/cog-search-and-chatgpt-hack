@@ -48,8 +48,8 @@ TASK 4 Run the same prompt against Cog Search with vectors (similarity)
 
 # Stretch Goals
 TASK 5 - Filter search results based on AD roles
-Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
-...
+1. Filtered search https://github.com/jometzg/openai-chat-rest-examples/blob/main/filtered-search-with-embeddings.md
+2. ...
 
 # Helpful links
 ...
