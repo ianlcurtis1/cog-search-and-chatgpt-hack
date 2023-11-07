@@ -24,11 +24,10 @@ The hack will not build a UI, hackers will query the data via AI Studio.
 
 TASK 1 Create the base infrastructure
 1. Log into the portal portal.azure.com
-2. Create a Cognitive Search service (takes time to deploy)
-  - ...
-  - Indexes
+2. Create a Cognitive Search service
+  - standard tier, ...
 3. Create a storage account and blob storage container
-  - ...
+  - LRS, ...
   - Upload data files
 3. Create an OpenAI service
   - ...
@@ -39,6 +38,8 @@ TASK 2 Run the prompt against data grounded against ChatGPT model (no Cognitive 
 2. 
 
 TASK 3 Run the same prompt against Cog Search with Indexes and enrichment
+Indexes
+GPT 3.5 Turbo
 1. ...
 2. 
 
