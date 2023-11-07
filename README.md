@@ -1,11 +1,11 @@
-# Chats & Hacks : Cognitive Search & ChatGPT
+# Cognitive Search & ChatGPT Hack
 
 # Hack Purpose
 Customers are confused as to where Azure Cognitive Search (ACS) comes into the picture when using ChatGPT with their data. The hack is to crystalise the capabilities and value offering that ACS gives in the minds of CSAs and others so that they can have a customer conversation -
-	- Data ingestion from many sources
-	- Data enrichment
-	- Vector search
-  	- Fast indexed data store
+1. Data ingestion from many sources
+2. Data enrichment
+3. Vector search
+4. Fast indexed data store
 
 # Content
 This repo is the basis - https://techcommunity.microsoft.com/t5/azure-ai-services-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087. It is a very common and simple pattern for this scenario.
@@ -18,16 +18,18 @@ The idea of the hack is to produce the search and generative parts of this solut
 The hack will not build a UI, hackers will query the data via AI Studio.
 
 Hands on creation of the:
-	- Blob storage
-		○ Uploaded data files
-	- Cognitive Search
-		○ Indexes
-	- ChatGPT
+1. Blob storage
+- Uploaded data files
+2. Cognitive Search
+- Indexes
+3. OpenAI
+- GPT-4
 
-Demonstrate what the different aspects of Cognitive Search bring
-	- Run the prompt against data grounded against ChatGPT model (no Cognitive Search)
-	- Run the same prompt against Cog Search with Indexes and enrichment
-	- Run the same prompt against Cog Search with vectors (similarity)
+Hackers will
+- Demonstrate what the different aspects of Cognitive Search bring
+- Run the prompt against data grounded against ChatGPT model (no Cognitive Search)
+- Run the same prompt against Cog Search with Indexes and enrichment
+- Run the same prompt against Cog Search with vectors (similarity)
 
 Show comparative performance in response
 
