@@ -38,6 +38,8 @@ Now we need to add our own data.
 2. Create a storage account and blob storage container: LRS, ...
 3. Upload data files found [???] to your blob container
 
+Manually create a a ACS index? 
+
 `TASK 3` Run a prompt against ChatGPT grounded in raw data ingested into ACS
 
 You can quickly ground ChatGPT with your data by using the 'Add your data' tab in the Chat Playground. 
